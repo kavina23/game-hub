@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Game Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Enhanced Game Hub</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Game 1: Number Guessing</h2>
+            <button id="start-guessing-game">Play Now</button>
+        </div>
+        <div>
+            <h2>Game 2: Memory Match</h2>
+            <button id="start-memory-game">Play Now</button>
+        </div>
+        <section id="analytics">
+            <h2>Game Analytics</h2>
+            <ul id="analytics-list"></ul>
+        </section>
+        <div id="memory-game-container"></div> <!-- Container for memory game -->
+    </main>
+    <script src="guessingGame.js"></script>
+    <script src="memoryGame.js"></script>
+    <script src="analytics.js"></script> <!-- Added for fetching analytics -->
+</body>
+</html>
